@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Food Store web </title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>🍔 My Food Store</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Menu</a>
+      <a href="#">Cart 🛒 (<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+
+  <main>
+      <div class ="products">
+      <div class ="product">
+        <img src="images/burger.jpg.jpg" alt="Burger" />
+        <h3>Burger</h3>
+        <p>₹499</p>
+        <button onclick="addToCart('Burger', 150)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="images/pizza.jpg.jpg" alt="Pizza" />
+        <h3> chees Pizza</h3>
+        <p>₹399</p>
+        <button onclick="addToCart('Pizza', 250)">Add to Cart</button>
+      </div>
+       <div class="product">
+        <img src="images/french.jpg.jpg" alt="french fries" />
+        <h3>french fries</h3>
+        <p>₹299</p>
+        <button onclick="addToCart('french fries', 290)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="images/momos.jpg" alt="momos" />
+        <h3>crispy momos</h3>
+        <p>₹199</p>
+        <button onclick="addToCart('crispy momos', 290)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="images/noodles.jpg" alt="noodles" />
+        <h3>masala noodles</h3>
+        <p>₹99</p>
+        <button onclick="addToCart('masala noodles', 290)">Add to Cart</button>
+      </div>
+      <div class="product-container">
+  <div class="product">
+    <img src="images/cofee.jpg"  alt="coffie"/>
+    <h3>cold coffie</h3>
+    <p>₹99</p>
+    <button onclick="addToCart('coffie',99)">Add to Cart</button>
+  </div>
+  <div class="product">
+    <img src="images/cake.jpg"  alt="cake"/>
+    <h3>chocolaty cake</h3>
+    <p>₹199</p>
+    <button onclick="addToCart('cake',199)">Add to Cart</button>
+  </div>
+  <div class="product">
+    <img src="images/rasmalai.webp"  alt="rasmalai"/>
+    <h3>rasmalai</h3>
+    <p>₹299</p>
+    <button onclick="addToCart('rasmalai',299)">Add to Cart</button>
+  </div>
+  <div class="product">
+    <img src="images/jamun.jpg"  alt="gulab jamun"/>
+    <h3>gulabjamun</h3>
+    <p>₹199</p>
+    <button onclick="addToCart('gulabjamun',199)">Add to Cart</button>
+  </div>
+  <div class="product">
+    <img src="images/fafda.jpg"  alt="fafda jalebi"/>
+    <h3>fafda-jalebi</h3>
+    <p>₹149</p>
+    <button onclick="addToCart('fafda-jalebi',149)">Add to Cart</button>
+  </div>
+
+
+      <!-- Add more products here -->
+    </div>
+  </main>
+<footer class="footer">
+    <div class="footer-content">
+        <p>thank you for visiting my food store!</p>
+        <p> contact: 6232419775 | Email:ankitbna123@gmail.com</p>
+        <p>created by ankit singh sankhla </p>
+        <p><a  href= "#">terms  &  conditions</a></p>
+    </div>
+
+</footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
